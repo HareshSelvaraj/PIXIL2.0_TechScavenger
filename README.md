@@ -1,37 +1,34 @@
-# Digital Treasure Hunt: Decode, Discover, Win! 🗝️
+# Utility Web Experiments 🚀
 
-Welcome to the official repository for this challenge.  
-This is not just another codebase—it’s a maze of logic, creativity, and discovery.  
-
-## 📖 About the Event
-Teams will be challenged with a series of hidden digital clues **spread across this repo** and beyond.   
-Solve each clue to uncover the next location, code, or puzzle. Ultimately, work your way toward the final **flag**.  
-
-### Clues May Appear As:
-- Binary, Hexadecimal, Base64 strings  
-- Hidden GitHub commits or file history  
-- QR codes linking to secret pages  
-- Riddles embedded in source code, comments, or invisible sections of HTML/CSS  
-
-### Judging Criteria
-- Number of clues solved  
-- Time taken to complete the hunt  
-- Teamwork and collaboration  
-- Creativity in using tools or AI  
+This repository contains a collection of small experimental projects, demos, and utilities.  
+They are organized in folders, each themed differently (visual effects, signals, encoders, etc.).  
+Some are complete mini-apps, some are half-finished tests or prototypes.
 
 ---
 
-## 🕵️‍♂️ How to Play
-1. Explore this repository—every file, folder, and commit may matter.  
-2. Look carefully at both **the obvious** and **the hidden**.  
-3. Work with your team to decode strings using the provided tools, or your own.  
-4. Trust your instincts, but beware: **not everything you find is true**.  
-   Some discoveries may be **false leads**. 
+## 📂 Structure
+Each folder demonstrates a different idea or effect:
+- **HTML/CSS/JS** demos for simple interactive visuals
+- **Small utilities** like encoders / converters
+- **Animation & style experiments** in CSS
+- **Data files** for testing formats
 
 ---
-<!-- Hidden Clue: 01100101 01100011 01101000 01101111 -->
+
+## 🔧 Usage
+- Open `.html` files directly in your browser to run demos.
+- Check `.css` or `.js` files that accompany each HTML page.
+- Text (`.txt`, `.md`) and JSON files hold reference notes or data samples.
+
+> Note: This repo is a work-in-progress, combining multiple small side experiments. Expect irregular structures.
+
 ---
 
-> Sometimes, what’s important lies *between the lines*.
+<!-- 01100101 01100011 01101000 01101111 -->
 
-Good luck, explorers. Your hunt begins here. 🔍
+---
+
+## ✅ Next Steps
+- Expand on existing demos with more detailed features.
+- Add new visual effects and interactive experiments.
+- Improve documentation for any utilities worth maintaining.
