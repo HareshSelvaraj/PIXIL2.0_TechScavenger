@@ -39,7 +39,7 @@ Your task is to collaborate, investigate, and decode clues to reach the final **
 
 ---
 
-<!-- 01100101 01100011 01101000 01101111 -->
+<!-- c3RhcnQ= -->
 
 ---
 
