@@ -26,7 +26,7 @@ Solve each clue to uncover the next location, code, or puzzle. Ultimately, work 
 2. Look carefully at both **the obvious** and **the hidden**.  
 3. Work with your team to decode strings using the provided tools, or your own.  
 4. Trust your instincts, but beware: **not everything you find is true**.  
-   Some discoveries may be **false leads** like "nothing", "zero", or "empty".  
+   Some discoveries may be **false leads**. 
 
 ---
 <!-- Hidden Clue: 01100101 01100011 01101000 01101111 -->
