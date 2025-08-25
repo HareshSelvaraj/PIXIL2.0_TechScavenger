@@ -24,10 +24,14 @@ Your task is to collaborate, investigate, and decode clues to reach the final **
 ---
 
 ## 🏆 Judging Criteria
-- **Number of clues solved** → find as many real answers as you can.  
-- **Time to completion** → the faster, the better.  
-- **Teamwork & collaboration** → share findings and solve riddles together.  
-- **Creativity** → use any tools (script, AI, libraries) to decode or investigate clues.  
+- Primary: total number of riddles (stages) solved.
+- Tie‑breaker: prompts per solved riddle = total prompts used / riddles solved (lower is better).
+
+---
+
+## Definitions:
+- “Prompt” = any message submitted to an AI tool specifically to analyze/solve this event (riddle solving, Base64 decoding, synonym vetting, password reasoning).
+- “Riddle solved” = the real folder for that stage was successfully unlocked with the correct password and the next stage was accessed.
 
 ---
 
