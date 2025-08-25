@@ -1,26 +1,37 @@
-# Utility Web Experiments 🚀
+# Digital Treasure Hunt 🗝️
 
-This repository contains a collection of small experimental projects, demos, and utilities.  
-They are organized in folders, each themed differently (visual effects, signals, encoders, etc.).  
-Some are complete mini-apps, some are half-finished tests or prototypes.
-
----
-
-## 📂 Structure
-Each folder demonstrates a different idea or effect:
-- **HTML/CSS/JS** demos for simple interactive visuals
-- **Small utilities** like encoders / converters
-- **Animation & style experiments** in CSS
-- **Data files** for testing formats
+Welcome to the official repository for the **Digital Treasure Hunt**.  
+Inside this project lies a maze of files, folders, and even commit history, where **clues are hidden in plain sight**.  
+Your task is to collaborate, investigate, and decode clues to reach the final **flag**.
 
 ---
 
-## 🔧 Usage
-- Open `.html` files directly in your browser to run demos.
-- Check `.css` or `.js` files that accompany each HTML page.
-- Text (`.txt`, `.md`) and JSON files hold reference notes or data samples.
+## 🕵️ About the Hunt
+- Clues are scattered across this repository.  
+- Each clue may be hidden inside a file, a folder, commit history, or even code comments.  
+- Decoding one clue will point you toward the next step in the hunt.  
+- There will be **real clues** and also **decoys**.
 
-> Note: This repo is a work-in-progress, combining multiple small side experiments. Expect irregular structures.
+---
+
+## 🔑 How to Play
+1. Start from this README file and look closely.  
+2. Explore the repository structure thoroughly — open every folder, read code, and inspect comments.  
+3. Use tools (like the included HTML converter or your own scripts) to decode **binary, hex, or base64 strings** you encounter.  
+4. Real answers will guide you step by step toward the final flag.  
+5. Beware of **red herrings** — false clues that lead nowhere.  
+
+---
+
+## 🏆 Judging Criteria
+- **Number of clues solved** → find as many real answers as you can.  
+- **Time to completion** → the faster, the better.  
+- **Teamwork & collaboration** → share findings and solve riddles together.  
+- **Creativity** → use any tools (script, AI, libraries) to decode or investigate clues.  
+
+---
+
+> ⚠️ *Every detail may matter. Search carefully. Read between the lines, and even behind them...*
 
 ---
 
@@ -28,7 +39,4 @@ Each folder demonstrates a different idea or effect:
 
 ---
 
-## ✅ Next Steps
-- Expand on existing demos with more detailed features.
-- Add new visual effects and interactive experiments.
-- Improve documentation for any utilities worth maintaining.
+Good luck, adventurers. Your hunt begins **now**. 🔍
