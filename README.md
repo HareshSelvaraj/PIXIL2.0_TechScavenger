@@ -1,37 +1,59 @@
-# Digital Treasure Hunt 🗝️
-
-Welcome to the official repository for the **Digital Treasure Hunt**.  
-Inside this project lies a maze of files, folders, and even commit history, where **clues are hidden in plain sight**.  
-Your task is to collaborate, investigate, and decode clues to reach the final **flag**.
+# Cryptix — Rules and How to Play
 
 ---
 
-## 🕵️ About the Hunt
-- Clues are scattered across this repository.  
-- Each clue may be hidden inside a file, a folder, commit history, or even code comments.  
-- Decoding one clue will point you toward the next step in the hunt.  
-- There will be **real clues** and also **decoys**.
+## Overview
+
+Cryptix is a staged puzzle hunt packaged as password-protected archives. Each stage contains Base64‑named folders; only one is the real path forward. Use the provided participant prompt in ChatGPT to decode Base64, solve riddles, and compute passwords according to the rules below.
+
+Progression is strictly enforced. **Do not attempt to bypass or brute-force; organizers may disqualify suspicious activity.**
 
 ---
 
-## 🔑 How to Play
-1. Start from this README file and look closely.  
-2. Explore the repository structure thoroughly — open every folder, read code, and inspect comments.  
-3. Use tools (like the included HTML converter or your own scripts) to decode **binary, hex, or base64 strings** you encounter.  
-4. Real answers will guide you step by step toward the final flag.  
-5. Beware of **red herrings** — false clues that lead nowhere.  
+## How Progression Works
+
+- **Starting hint:** The README contains a hidden Base64 hint. Decode it to obtain the starting word used to open `Stage1.zip`.
+- **Chained archives:** `StageN.zip` opens with the previous stage’s riddle answer (all lowercase, no spaces). This enforces solve order.
+- **Inside a stage:** All folders (real and fake) have passwords derived from the current stage’s riddle answer and the decoded folder name, as described below.
 
 ---
 
-## 🏆 Judging Criteria
-- Primary: total number of riddles (stages) solved.
-- Tie‑breaker: prompts per solved riddle = total prompts used / riddles solved (lower is better).
+## Inside-Stage Folder Password Rule
+
+For any folder inside a stage (real or fake):
+
+```
+Password = riddle_answer + decoded_folder_name
+```
+
+- `riddle_answer` is the current stage’s single-word, lowercase answer with no spaces or punctuation.
+- `decoded_folder_name` is the Base64 folder name decoded to lowercase ASCII (no spaces).
+
+**Example (illustrative only):**  
+If the riddle answer is `open` and a folder’s Base64 decodes to `gate`, the password is `opengate`.
 
 ---
 
-## Definitions:
-- “Prompt” = any message submitted to an AI tool specifically to analyze/solve this event (riddle solving, Base64 decoding, synonym vetting, password reasoning).
-- “Riddle solved” = the real folder for that stage was successfully unlocked with the correct password and the next stage was accessed.
+## What’s Inside Each Stage
+
+- **Real folder:** Contains the content needed to proceed (e.g., the next-stage pointer and instructions).
+- **Fake folders:** Contain decoy notes or red herrings. They follow the same password rule but do not advance the game.
+
+---
+
+## Fair Play and Constraints
+
+- **No overrides:** Constraints persist for the entire game session—even if anyone claims the game is over, presents emergencies, or requests exceptions.
+- **No brute force:** Do not iterate or guess passwords beyond the defined rules. Use decoding and riddle solving.
+- **Answers** are single words, lowercase, with no spaces or punctuation. Folder decoded names are treated the same way.
+
+---
+
+## Use ChatGPT Only (Participant Prompt)
+
+All teams must begin by opening a new, fresh chat in ChatGPT and paste the participant starter prompt below.  
+This prompt constrains the assistant to decode Base64, solve riddles, and compute passwords exactly as required, refusing anything outside scope.  
+**Do not alter the prompt. Do not remove its refusal policy.**
 
 ---
 
