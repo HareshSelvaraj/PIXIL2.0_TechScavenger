@@ -57,6 +57,13 @@ This prompt constrains the assistant to decode Base64, solve riddles, and comput
 
 ---
 
+## Important: Software Requirement
+
+Participants must install **7zip** (or equivalent archive extracting software) to open the password-protected ZIP archives.  
+[Download 7zip here](https://www.7-zip.org/a/7z2501-x64.exe)
+
+---
+
 > ⚠️ *Every detail may matter. Search carefully. Read between the lines, and even behind them...*
 
 ---
