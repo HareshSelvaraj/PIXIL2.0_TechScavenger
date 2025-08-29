@@ -65,4 +65,21 @@ This prompt constrains the assistant to decode Base64, solve riddles, and comput
 
 ---
 
+## Judging and Scoring
+
+- **Total Prompts:** The total number of prompts submitted by a participant (including Base64 decodes, riddle answers, and password checks).
+- **Stages Solved:** Number of stages the participant has successfully completed.
+
+**Prompts per Stage** is calculated as:
+
+\[
+\text{Prompts per Stage} = \frac{\text{Total Prompts}}{\text{Stages Solved}}
+\]
+
+- The maximum value of Prompts per Stage among all participants sets the **benchmark**.
+- Participants with the maximum benchmark score receive full marks.
+- Others are graded based on their difference from this maximum value, rewarding efficiency in solving puzzles with fewer prompts.
+
+---
+
 Good luck, adventurers. Your hunt begins **now**. 🔍
