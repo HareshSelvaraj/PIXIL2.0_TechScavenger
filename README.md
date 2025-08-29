@@ -72,9 +72,7 @@ This prompt constrains the assistant to decode Base64, solve riddles, and comput
 
 **Prompts per Stage** is calculated as:
 
-Prompts per Stage =       Total Prompts
-                        ----------------
-                         Stages Solved
+Prompts per Stage =       Total Prompts/Stages Solved
 
 - The maximum value of Prompts per Stage among all participants sets the **benchmark**.
 - Participants with the maximum benchmark score receive full marks.
