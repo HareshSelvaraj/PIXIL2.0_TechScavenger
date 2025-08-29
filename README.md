@@ -68,7 +68,7 @@ Participants must install **7zip** (or equivalent archive extracting software) t
 
 ---
 
-<!-- c3RhcnQ= -->
+<!-- Y3J5cHRpeA== -->
 
 ---
 
